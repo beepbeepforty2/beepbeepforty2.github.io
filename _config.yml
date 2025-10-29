@@ -4,8 +4,8 @@
 title: "Pratik Chatse - Resume"
 description: "Senior Software Engineer specializing in Computer Vision, Machine Learning, Deep Learning, and Reinforcement Learning"
 author: "Pratik Chatse"
-url: "/resume"
-baseurl: ""
+url: "https://beepbeepforty2.github.io"
+baseurl: "/resume"
 
 # Build Settings
 markdown: kramdown
