@@ -1,0 +1,55 @@
+# Jekyll Configuration for GitHub Pages
+
+# Site Settings
+title: "Pratik Chatse - Resume"
+description: "Senior Software Engineer specializing in Computer Vision, Machine Learning, Deep Learning, and Reinforcement Learning"
+author: "Pratik Chatse"
+url: "https://pratikchatse.github.io"
+baseurl: ""
+
+# Build Settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# SEO Settings
+lang: en_US
+twitter:
+  username: # Add if available
+  card: summary
+
+social:
+  name: Pratik Chatse
+  links:
+    - https://github.com/pratikchatse
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# Include files
+include:
+  - _pages
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
